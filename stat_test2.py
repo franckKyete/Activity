@@ -10,7 +10,7 @@ data["categ"].value_counts(normalize=True).plot(kind='pie')
 # Cette ligne assure que le pie chart est un cercle plutôt qu'une éllipse
 plt.axis('equal') 
 plt.show() # Affiche le graphique
-
+ 
 # Diagramme en tuyaux d'orgues
 data["categ"].value_counts(normalize=True).plot(kind='bar')
 plt.show()
